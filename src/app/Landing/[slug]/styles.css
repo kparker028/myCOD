@@ -1,0 +1,56 @@
+.modes-container {
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 24px 24px 36px 24px;
+}
+
+.select-container {
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 16px;
+}
+
+.tag {
+	font-size: 20px;
+	color: antiquewhite;
+	font-weight: 700;
+}
+
+.mode {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.mode:hover {
+	opacity: 1;
+	transition: all ease-in-out 0.3s;
+}
+
+.title {
+	font-size: 24px;
+	color: antiquewhite;
+	font-weight: 600;
+	white-space: nowrap;
+	z-index: 1;
+}
+
+img {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	z-index: 0;
+}

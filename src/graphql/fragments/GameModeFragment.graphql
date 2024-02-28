@@ -1,0 +1,7 @@
+fragment GameModeFragment on GameMode {
+	__typename
+	id
+	title
+	modeImage
+	modeSlug
+}
